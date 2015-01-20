@@ -123,9 +123,9 @@ body {
 
 /*
 .no-touch {
-  .photo, .name {
-    opacity: 1 !important;
-  }
+.photo, .name {
+opacity: 1 !important;
+}
 }
 */
 /* ABOUT */
@@ -185,6 +185,10 @@ body {
     text-align: center;
     font-size: 1.4375rem;
     margin-bottom: 3.75rem; }
+
+.work {
+  color: #999;
+  border-bottom: 0.125rem solid #999; }
 
 .thumb-wrapper {
   margin: 0 auto; }
@@ -382,7 +386,7 @@ a {
 
 /*
 .no-touch .tooltip {
-  display: none;
+display: none;
 }
 */
 /* FOOTER */
@@ -422,7 +426,15 @@ a {
   .links li {
     display: inline-block;
     margin: 0 25px;
-    margin: 0 1.5625rem; }
+    margin: 0 1.5625rem;
+    /*
+    		.paperplane .link-to {
+    			background: #f7ba34;
+    			&:after {
+    				background: #f7ba34;
+    			}
+    		}
+    */ }
     .links li a {
       position: relative;
       -webkit-transition: opacity .3s linear;
@@ -475,18 +487,26 @@ a {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
-    .links li .paperplane .link-to {
-      background: #f7ba34; }
-      .links li .paperplane .link-to:after {
-        background: #f7ba34; }
     .links li .twitter .link-to {
       background: #55acee; }
       .links li .twitter .link-to:after {
         background: #55acee; }
+    .links li .pinterest .link-to {
+      background: #c92228; }
+      .links li .pinterest .link-to:after {
+        background: #c92228; }
     .links li .dribbble .link-to {
       background: #ea4c89; }
       .links li .dribbble .link-to:after {
         background: #ea4c89; }
+    .links li .github .link-to {
+      background: #000000; }
+      .links li .github .link-to:after {
+        background: #000000; }
+    .links li .linkedin .link-to {
+      background: #4875B4; }
+      .links li .linkedin .link-to:after {
+        background: #4875B4; }
 
 @media screen and (max-width: 40em) {
   .links li {
@@ -499,7 +519,7 @@ a {
 
 /*
 .no-touch .count {
-  display: none;
+display: none;
 }
 */
 .animated:hover {
@@ -603,14 +623,25 @@ a {
     width: 1.875rem;
     height: 30px;
     height: 1.875rem; } }
+/*
 .icon-paperplane {
-  fill: #f7ba34; }
-
+	fill: #f7ba34;
+}
+*/
 .icon-twitter {
   fill: #55ACEE; }
 
+.icon-pinterest {
+  fill: #c92228; }
+
 .icon-dribbble {
   fill: #ea4c89; }
+
+.icon-github {
+  fill: #000000; }
+
+.icon-linkedin {
+  fill: #4875B4; }
 
 /* MODAL */
 #modal {
