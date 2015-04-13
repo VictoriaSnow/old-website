@@ -1,7 +1,7 @@
-/* Styles for www.victoriabian.com */
+/* Styles for www.victoriabian.me */
 
 /* RESET CSS */
-@import "_reset.css";
+@import "reset/reset.css";
 @import "bourbon/bourbon";
 
 /* GENERAL */
@@ -240,14 +240,16 @@ $black: #000;
 		font-weight: bold;
 		font-style: italic;
 		font-size: 1.5625rem;
-		opacity: 0;
+// 		opacity: 0;
 		-webkit-transition: opacity .6s linear;
 		transition: opacity .6s linear;
+/*
 		&.active {
 			opacity: 1;
 			-webkit-transition:opacity .6s linear;
 			transition:opacity .6s linear
 		}
+*/
 		&:before {
 			content: "· ";
 		}
